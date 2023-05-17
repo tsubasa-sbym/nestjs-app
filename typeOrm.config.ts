@@ -12,6 +12,7 @@ export default new DataSource({
 
   // ログを出力するかどうか
   logging: true,
+  synchronize: true
 
   // synchronize は開発時にのみ使用する
   // trueにすると、エンティティの変更を検知して、自動的にテーブルが更新される
